@@ -48,7 +48,6 @@ int main()
 		cvtColor(frame, frame, COLOR_BGR2GRAY);
 		if (cnt == 0) {
 			frame.copyTo(bgMat);//获得背景图像
-			fire(firemat, firemat);
 			dst = frame.clone();//备份
 		}
 		else if (cnt == 100) {
