@@ -34,7 +34,6 @@ int main()
 
 	while (1) {
 		capVideo >> frame;
-
 		if (cnt == 0) {
 			firemat = frame.clone();
 			firemat1 = frame.clone();
