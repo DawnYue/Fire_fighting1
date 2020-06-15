@@ -19,7 +19,6 @@ int main()
 		std::cout << "can not open" << std::endl;
 		return -1;
 	}
-
 	int cnt = 0;//计数器
 	Mat frame;
 	Mat dst;
